@@ -1,0 +1,12 @@
+networkx
+matplotlib
+numpy
+pandas
+scikit-learn
+tqdm
+phate
+scipy
+plotly
+scprep
+scikit-dimension
+scanpy

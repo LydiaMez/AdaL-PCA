@@ -1,0 +1,21 @@
+name: adalpca
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8,<3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - tqdm
+  - matplotlib
+  - scipy
+  - scikit-dimension  # for skdim
+  - networkx
+  - plotly
+  - scanpy
+  - pip
+  - pip:
+      - phate
+      - scprep
+      - -e .
